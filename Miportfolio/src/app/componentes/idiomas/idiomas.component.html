@@ -1,0 +1,14 @@
+<div class="row">
+   <h1> Idiomas</h1>
+   <div class="col-lg-1"></div>
+   <div class="col-lg-11">
+    <ul>
+       <li *ngFor="let idioma of idiomasList" >
+           <dt>{{idioma.nombre}}</dt>
+           <dd> {{idioma.nivel}}</dd> 
+           <dd> {{idioma.observaciones}}</dd> 
+       </li>
+    </ul>
+
+   </div>
+

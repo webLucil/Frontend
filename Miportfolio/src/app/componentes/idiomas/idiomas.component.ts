@@ -2,19 +2,18 @@ import { Component } from '@angular/core';
 import { ServicioService } from 'src/app/servicios/servicio.service';
 
 @Component({
-  selector: 'app-proyectos',
-  templateUrl: './proyectos.component.html',
-  styleUrls: ['./proyectos.component.css']
+  selector: 'app-idiomas',
+  templateUrl: './idiomas.component.html',
+  styleUrls: ['./idiomas.component.css']
 })
-export class ProyectosComponent {
-  proyectosList:any;
+export class IdiomasComponent {
+  idiomasList:any;
   constructor(private datosPortfolio: ServicioService){}
 
   ngOnInit(): void {
    this.datosPortfolio.obtenerDatos().subscribe(data => {
     console.log(data);
-    this.proyectosList= data.proyectos;
+    this.idiomasList= data.idiomas;
    });
- 
-}
+  }
 }

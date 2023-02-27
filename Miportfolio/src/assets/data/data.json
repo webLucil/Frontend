@@ -1,0 +1,113 @@
+{
+    "experiencia":[
+    {
+    "lugar":"Servicio Meteorológico Nacional",
+    "cargo":"Observadora Meteorológica de Superficie",
+    "anio":"2015 - Actualidad"
+},
+{
+    "lugar":"BBVA",
+    "cargo":"Azafata",
+    "anio":"2012 - 2015"
+},
+{
+"lugar":"Administración de Consorcios",
+"cargo":"ecretaria general, administrativo",
+"anio":"2011 - 2012"
+}
+],
+
+"educacion":[
+   
+     {
+    "nombre": "Agentina Programa 4.0",
+    "curso": "Full Stack Developer Jr.",
+    "img": "",
+    "url":"#"
+    
+   },
+
+ {
+    "nombre": "Universidad Nacional de La Plata",
+    "curso": "Lic. en Cs. de la Atmósfera",
+    "img": "",
+    "url":"#"
+   
+  },
+
+  {
+    "nombre": "Servicio Meteorológico Nacional",
+    "curso": "Curso Observación Meteorológica de suerficie",
+    "img": "",
+    "url":"#"
+   
+  },
+
+ {
+    "nombre": "Comercial 33 Maipú ",
+    "curso": "Perito Mercantil con orientación contable e impositiva",
+    "img": "",
+    "url":"#"
+   
+ }
+  
+ ],
+
+ "idiomas":[
+    {
+        "nombre": "Inglés",
+        "nivel": "Intermedio",
+        "observaciones":"" 
+            },
+
+     {
+        "nombre": "Hebreo",
+        "nivel": "Básico",
+        "observaciones":"Completo 3 niveles de Hebreo, dictados en Amia."
+             }
+
+],
+
+"habilidades":[
+    {
+        "nombre": "HTML",
+        "porcentaje": "40"
+            },
+
+     {
+        "nombre": "CSS",
+        "porcentaje": "40"
+             },
+
+     {
+        "nombre": "JS",
+        "porcentaje": "30"
+                     },
+
+     {
+        "nombre": "JAVA",
+        "porcentaje": "30"
+                     },
+    
+    {
+        "nombre": "Angular",
+        "porcentaje": "30"
+                       },
+
+     {
+         "nombre": "Github",
+         "porcentaje": "30"
+                        }                         
+],
+
+"proyectos":[
+    { 
+        "nombre":"Mi portfolio",
+        "observaciones":"El proyecto consiste en el uso de distintas herramientas que permiten desarrollar una aplicación web, trabajando en el FrontEnd,BackEnd y Base de Datos"
+        
+
+}
+
+]
+
+}

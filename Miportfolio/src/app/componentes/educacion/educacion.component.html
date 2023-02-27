@@ -3,38 +3,14 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
      <ul>
-        <li>
-             <dt>Argentina Programa 4.0</dt>
-             <dd>Full Stack Developer Jr..</dd>
-             <dd>2022-Actualidad</dd>
-             <dd>Estado: En curso </dd>
+        <li *ngFor="let educacion of educacionList">
+             <dt>{{educacion.nombre}}</dt>
+             <dd>{{educacion.curso}}</dd>
+             <dd>{{educacion.img}}</dd>
+             <dd>{{educacion.url}}</dd>
         </li>
      </ul>
-    <ul>
-        <li>
-             <dt> Universidad Nacional de La Plata </dt>
-             <dd> Ciencias de la Atmósfera. </dd>
-             <dd>2020 - Actualidad</dd>
-             <dd>Estado: En curso</dd> 
-        </li>
-        <br>
-    </ul>   
-    <ul>
-        <li>
-          <dt> Servicio Meteorológico Nacional</dt>
-          <dd> Observación Meteorológica de Superficie</dd> 
-          <dd> 2013 - 2014</dd> 
-          <dd> Estado: Finalizado </dd>  
-        </li>
-    </ul>
-     <ul>
-        <li>
-           <dt> Secundario Comercial 33 "Maipú":</dt>
-           <dd> Perito Mercantil con Orientación Contable e Impositiva.</dd> 
-           <dd> 2005-2010</dd> 
-           <dd> Estado: Finalizado</dd> 
-        </li>
-    </ul>
+    
     </div>
 
 </div>

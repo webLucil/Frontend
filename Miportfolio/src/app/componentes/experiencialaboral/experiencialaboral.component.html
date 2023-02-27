@@ -3,28 +3,13 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
      <ul>
-        <li>
-            <dt>Servicio Meteorológico Nacional</dt>
-            <dd> Cargo: Observdora Meteorológica de Superficie</dd> 
-            <dd> (years)</dd> 
+        <li *ngFor="let experiencia of experienciaList" >
+            <dt>{{experiencia.lugar}}</dt>
+            <dd> {{experiencia.cargo}}</dd> 
+            <dd> {{experiencia.anio}}</dd> 
         </li>
      </ul>
-    <ul>
-        <li>
-            <dt> BBVA Frances</dt>
-            <dd> Cargo: Azafata</dd> 
-            <dd> 2012 - 2015</dd>   
-        </li>
-        <br>
-    </ul>   
-    <ul>
-        <li>
-           <dt> Administración de consorcios "Ortíz"</dt>
-           <dd> Cargo: Secretaria general, administrativo.</dd> 
-           <dd> 2011 - 2012</dd> 
-        </li>
-    </ul>
-    
+
     </div>
 
 </div>
